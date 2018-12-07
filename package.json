@@ -1,8 +1,11 @@
 {
-  "name": "create-wechat-app",
+  "name": "create-mp",
   "version": "1.0.0",
   "description": "快捷创建小程序框架",
   "main": "index.js",
+  "bin": {
+    "create-mp": "./.bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +21,22 @@
   "bugs": {
     "url": "https://github.com/wangyunlong0418/create-wechat-app/issues"
   },
-  "homepage": "https://github.com/wangyunlong0418/create-wechat-app#readme"
+  "homepage": "https://github.com/wangyunlong0418/create-wechat-app#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest-node": "^2.0.2",
+    "babel-register": "^6.26.0",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.1",
+    "which": "^1.3.1"
+  }
 }
