@@ -1,0 +1,22 @@
+{
+  "name": "create-wechat-app",
+  "version": "1.0.0",
+  "description": "快捷创建小程序框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wangyunlong0418/create-wechat-app.git"
+  },
+  "keywords": [
+    "小程序"
+  ],
+  "author": "yunlong.wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangyunlong0418/create-wechat-app/issues"
+  },
+  "homepage": "https://github.com/wangyunlong0418/create-wechat-app#readme"
+}
